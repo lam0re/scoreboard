@@ -1,7 +1,8 @@
 <?php
+
 // Definitions
 define( 'MESSAGE_KEY', '' );
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '' );
 define( 'DB_USER', '' );
 define( 'DB_PASS', '' );
 define( 'DB_NAME', '' );
@@ -42,4 +43,5 @@ if( !isset( $_SESSION['token'] ) )
 }
 
 define( 'INITIALIZED', true );
+
 ?>

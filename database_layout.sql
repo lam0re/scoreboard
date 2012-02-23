@@ -6,13 +6,13 @@ CREATE TABLE IF NOT EXISTS `attacks` (
   `additional` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `team` (`team`,`challenge`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=406 ;
+);
 
 CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+);
 
 CREATE TABLE IF NOT EXISTS `challenges` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `challenges` (
   `category` int(11) NOT NULL,
   `deactivated` tinyint(4) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=33 ;
+);
 
 CREATE TABLE IF NOT EXISTS `locations` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `locations` (
   `x` int(11) NOT NULL,
   `y` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=30 ;
+);
 
 CREATE TABLE IF NOT EXISTS `teams` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `teams` (
   `mail` text NOT NULL,
   `beer` tinyint(4) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=113 ;
+);
 
 CREATE TABLE IF NOT EXISTS `ticker` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -54,5 +54,5 @@ CREATE TABLE IF NOT EXISTS `ticker` (
   `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `script` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=33 ;
+);
 
