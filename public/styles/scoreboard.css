@@ -1,0 +1,351 @@
+body
+{
+	font-family: monospace;
+	color: white;
+	background-color: #131516;
+	background-image: url(../images/backgrounds/raster.jpg);
+	background-repeat: repeat;
+	text-align: center;
+}
+
+#world, #menu, #sidebar, #rankingframe
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#errors
+{
+	text-align: left;
+}
+
+#errors h1
+{
+	text-transform: uppercase;
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+
+#content
+{
+	min-width: 1310px;
+	min-height: 610px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	display: none;
+}
+
+#innercontent
+{
+	display: none;
+	position: absolute;
+	margin: 10px;
+	width: 980px;
+	height: 530px;
+	color: black;
+}
+
+#formframe
+{
+	margin: 100px auto;
+	width: 400px;
+	padding: 14px;
+}
+
+#formframe h1
+{
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	text-transform: uppercase;
+}
+
+#formframe label
+{
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+}
+
+#formframe .small
+{
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+}
+
+#formframe input, #formframe select
+{
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	margin: 2px 0 20px 10px;
+	width: 200px;
+}
+
+#formframe button
+{
+	width: 125px;
+	height: 30px;
+	margin-left: 150px;
+	font-size: 11px;
+}
+
+#formframe label, #formframe .small
+{
+	width: 140px;
+}
+
+.flags label, .flags .small
+{
+	width: 120px;
+}
+
+.flags input
+{
+	width: 250px;
+}
+
+#challengesframe
+{
+	height: 100%;
+	width: 32%;
+	float: left;
+	text-align: left;
+}
+
+#challengesframe ul, #challengesframe li
+{
+	list-style-type: none;
+}
+
+.category
+{
+	font-size: 16px;
+}
+
+.challenge
+{
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.solved
+{
+	color: green;
+}
+
+#challengeframe
+{
+	height: 100%;
+	width: 65%;
+	float: right;
+	text-align: left;
+}
+
+#challengeframe span
+{
+	display: block;
+	height: 90%;
+	white-space: pre-wrap;
+	overflow: auto;
+}
+
+#world
+{
+	width: 1000px;
+	height: 600px;
+	background: url(../images.php?m=border&h=600&w=1000), url(../images/backgrounds/stars2.jpg);
+}
+
+#menu
+{
+	z-index: 200;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	float: left;
+	position: relative;
+	bottom: 82px;
+	left: 10px;
+	padding: 5px;
+	border: solid 3px #aaa;
+	border-radius: 25px 25px 25px 25px;
+	background: url(../images/backgrounds/ticker.png);
+}
+
+#menu img
+{
+	margin-left: 10px;
+}
+
+#menu .right
+{
+	margin-right: 10px;
+}
+
+#sidebar
+{
+	width: 300px;
+	height: 600px;
+	float: right;
+}
+
+#rankingframe
+{
+	width: 300px;
+	height: 600px;
+	background: url(../images.php?m=border&h=600&w=300) left top no-repeat, url(../images/backgrounds/ranking.png) left top repeat;
+	float: left;
+}
+
+#scrollable
+{
+	width: 280px;
+	max-height: 560px;
+	overflow: auto;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#ranking
+{
+	width: 255px;
+	font-size: 13px;
+}
+
+#ranking td
+{
+	text-align: right;
+}
+
+#ranking .score
+{
+	width: 50px;
+}
+
+#announcements
+{
+	display: none;
+	width: 300px;
+	height: 250px;
+	float: right;
+	margin-top: 5px;
+}
+
+#speed
+{
+	text-align: right;
+	margin: 10px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#ticker
+{
+	width: 290px;
+	height: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 1px;
+	position: relative;
+	top: 150px;
+	font-size: 25px;
+	background-image: url(../images/backgrounds/ticker.png);
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.box-header
+{
+	cursor: move;
+}
+
+#authenticate, #settings, #close, #speed-down, #speed-up, .box-header img
+{
+	cursor: pointer;
+}
+
+/* Terminal */
+
+.container
+{
+	position: fixed;
+	left: 100px;
+	top: 62px;
+	width: 500px;
+	height: 500px;
+	padding: 5px;
+	float: left;
+}
+
+.box
+{
+	width: 500px;
+	height: 500px;
+	min-width: 500px;
+	min-height: 500px;
+	background: url(../images.php?m=border&h=500&w=500) left top no-repeat, url(../images/backgrounds/ranking.png) left top repeat;
+	position: fixed;
+	z-index: 250;
+}
+
+.box-header
+{
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	padding: 10px;
+}
+
+.box-header h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	display: inline;
+}
+
+.box-navigation
+{
+	float: right;
+	display: inline;
+}
+
+.box-body
+{
+	height: 452px;
+	position: relative;
+}
+
+.box-frame, .box-frame-full
+{
+	height: 450px;
+}
+
+.terminal-output
+{
+	width: 475px;
+	height: 410px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: auto;
+}
+
+.terminal-form
+{
+	width: 500px;
+	position: absolute;
+	bottom: 2px;
+}
+
+.terminal-input
+{
+	width: 360px;
+}
