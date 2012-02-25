@@ -1,5 +1,5 @@
 # Scoreboard
-This project was created for the challenge-based Hack.lu CTF 2011. It is based on PHP and MySQL and makes heavy use of Javascript.
+This project was created for the challenge-based Hack.lu CTF 2011 competition. It is based on PHP and MySQL and makes heavy use of Javascript.
 
 ## Goal
 The goal of this project was to write an interactive, animated scoreboard which automatically updates itself without reloads. If a team submits a flag or
@@ -8,7 +8,7 @@ The intention was to make it look like and feel more like a game than a website.
 
 ## Future
 It is unlikely that this project will be continued (but not impossible). All important things are implemented and the competition is over, so there is no real
-need to extend it. If you want to fork this project though, you are more then welcome.
+need to extend it. If you want to fork this project though you are more than welcome.
 
 ## Installation
 Create a MySQL database (database_layout.sql) and update the settings in /public/config.php. Now move the content of /public to a web-accessible directory
