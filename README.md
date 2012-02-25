@@ -16,26 +16,43 @@ and the installation is complete. Teams, challenges etc. have to be added manual
 
 ## Sources
 /public/images/backgrounds/stars1.jpg
+
 /public/images/backgrounds/stars2.jpg
+
  - Russell Croman, http://www.rc-astro.com/
 
+
 /public/images/backgrounds/world.jpg
+
  - http://nssdc.gsfc.nasa.gov/planetary/planets/earthpage.html
 
+
 /public/images/flags/
+
  - http://www.famfamfam.com/lab/icons/flags/
 
+
 /public/images/icons/
+
  - http://openiconlibrary.sourceforge.net/
 
+
 /public/scripts/RequestAnimationFrame.js
+
  - Paul Irish, http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 
+
 /public/scripts/jquery.marquee.js
+
  - Remy Sharp, http://remysharp.com/tag/marquee
 
+
 /public/scripts/jquery-1.6.2.min.js
+
  - http://jquery.com/
 
+
 /public/scripts/soundmanager-2.min.js
+
  - http://www.schillmania.com/projects/soundmanager2/
+
