@@ -6,6 +6,9 @@ The goal of this project was to write an interactive, animated scoreboard which 
 an administrator announces something it gets graphically displayed. This makes it possible to open the scoreboard f.i. on a projector and follow the events.
 The intention was to make it look like and feel more like a game than a website.
 
+## Demo
+You can find a live version of the scoreboard at [https://ctf.fluxfingers.net/2011/](https://ctf.fluxfingers.net/2011/). When you enter the site the attack animation will show the last submitted flag.
+
 ## Future
 It is unlikely that this project will be continued (but not impossible). All important things are implemented and the competition is over, so there is no real
 need to extend it. If you want to fork this project though you are more than welcome.
